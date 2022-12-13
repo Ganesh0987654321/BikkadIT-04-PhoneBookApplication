@@ -10,6 +10,6 @@ public interface ContactServiceI {
 	
 	public abstract List<Contact> getAllContact();
 	
-	
+	public abstract Contact getContactById(Integer id);
 
 }
